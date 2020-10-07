@@ -1,0 +1,54 @@
+Bonjour,
+Etapes:
+- creer un dossier 'Projet_BDDA_nom1_nom2' sur votre machine
+- ajoute 2 sous-dossier dans la même projet principal: Code, BD
+- Lancer Eclipse, creer un projet en Eclipse qui s'appelle "MiniSGBD_nom1_nom2" dans le sous-dossier "Code"
+
+* scripts: fichier texte
+    chemin relatif
+    
+    
+- ajouter la classe main dans MiniSGBD....
+    + cree un methode main
+    Dans main:+ System.out.println(args[0]);       // 
+               -> trouve erreur 
+               ->solution: run configurations -> argument -> ajoute le chemin vers sous-projet DB dans "program arguments" 
+               
+               +
+-bytecode garde dans un fichier .class
+----------------------------------------- ----------------------------------------- ----------------------------------------- 
+Rappel sur tableau du prof:
+  -Commande pour compiler votre projet en ligne de commande, depuis le dossier Projet_BDDA... avec javac
+  -et meme chose pour le lancer avec un chemin relatif pour BD
+  
+  
+----------------------------------------- ----------------------------------------- ----------------------------------------- 
+-avec Terminal: (document supplémentaire pour moi: https://hostingviet.vn/cac-lenh-co-ban-trong-ubuntu)
+    ls     :affichage une liste des dossier
+    cd      :arriver le dossier
+ ou cd (chemin vers dossier) :
+    cd ..     :retourne un chemin précédent 
+  
+  
+  
+---------------------------------------------------------------------------------- -----------------------------------------  
+    Toujours dans chemin vers Projet_BDDA_VO_Boujemaa: 
+    
+    +ajoute un fichier plein texte s'appelle "script.sh" directement dans le dossier Projet_BDDA = document texte, vous y mettez les 2 commandes:
+     
+           javac -d Code/MiniSGBD_VO_Boujemaa/bin Code/MiniSGBD_VO_Boujemaa/src/*.java 
+           java -cp Code/MiniSGBD_VO_Boujemaa/bin Main BD
+    
+    ->> pour exécuter script: 
+    En suite, dans le terminal dans le dossier Projet_BDDA:   chmod +x script.sh
+    Vous pouvez exécuter:     ./script.sh
+    ->> affichage: BD
+    
+- 
+   -----------------------------------------H. Code: début du DBManager = point d’entrée de la logique SGBD----------------------------- ----------------------------------------- 
+   
+   
+   
+   ----------------------------------------------------------------------------------------------------------------------------------------------------
+-but: application la consolde: afficher les textes
+      tape d'une commande de l'utilisateur -> affichage
