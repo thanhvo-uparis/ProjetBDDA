@@ -36,7 +36,7 @@ Rappel sur tableau du prof:
     
     +ajoute un fichier plein texte s'appelle "script.sh" directement dans le dossier Projet_BDDA = document texte, vous y mettez les 2 commandes:
      
-           javac -d Code/MiniSGBD_VO_Boujemaa/bin Code/MiniSGBD_VO_Boujemaa/src/*.java 
+           javac -d Code/MiniSGBD_VO_Boujemaa/bin Code/MiniSGBD_VO_BOUJEMAA/src/*.java 
            java -cp Code/MiniSGBD_VO_Boujemaa/bin Main BD
     
     ->> pour exécuter script: 
