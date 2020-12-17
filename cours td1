@@ -40,7 +40,7 @@ Rappel sur tableau du prof:
            java -cp Code/MiniSGBD_VO_Boujemaa/bin Main BD
     
     ->> pour exécuter script: 
-    En suite, dans le terminal dans le dossier Projet_BDDA:   chmod +x script.sh
+    En suite, dans le terminal dans le dossier Projet_BDDA:   chmod u+x script.sh
     Vous pouvez exécuter:     ./script.sh
     ->> affichage: BD
     
